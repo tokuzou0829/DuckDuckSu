@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="icon.png">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <title>DuckDuckSu ースバル保護をシンプルに。</title>
 </head>
 <body>
@@ -12,12 +13,10 @@
     <a href="https://duckducksu.co/"><img src="icon.png" width="150" height="150"></a>
     <h1>DuckDuckSu</h1>
     <form method=get action="https://duckduckgo.com/" id="form4">
+        <div>
         <input type=text name=q size=31 maxlength=255 value=""  id="form-area" placeholder="大空警察に追跡されずに安心してウェブ検索。">
-        <input type=hidden name=ie >
-        <input type=hidden name=oe >
-        <input type=hidden name=hl value="ja">
-        </td></tr></table>
-        </form>
+        </div>
+    </form>
        <p><font size="3"><b><div style="color:#808080">あなたを追跡しない検索エンジン</div></b></font></p>
        <p><div style="color: #a1c8e2"><a href="https://www.youtube.com/watch?v=QbwQaCozLxo"style="text-decoration:none"><font color= #a1c8e2>DuckDuckSuが広まるように手伝ってください！</font></a><a href="https://www.youtube.com/channel/UCvzGlP9oQwU--Y0r9id_jnA"style="text-decoration:none"><font color= #a1c8e2>&nbsp;&nbsp;&nbsp;&nbsp;take a tour</font></a></div></p>
        <p>Powered by DuckDuckGo</p>
@@ -27,19 +26,24 @@
             padding: 170px;
         }
 
+.form-button {
+      position: absolute;
+}
 
-        #form-area{
-height:50px;
-padding:0 10px;
-border-radius:25px;
-outline:0;
-background:#eee;
-width: 500px;
+#form-area{
+  height:50px;
+  padding:0 10px;
+  border-radius:3px;
+  outline:0;
+  border: 1px solid rgba(0,0,0,0.15);
+  width: 550px;
+  background-color: #fff;
 }
 
 /* 全体設定 */
 * {
   box-sizing: border-box;
+  background-color: #f7f7f7;
   }
 
 /* ポップアップウインドウの設定 */
@@ -312,6 +316,7 @@ right:0%;
 margin: 40px auto 40px auto;
 width: 120%;
 }
+
     </style>
 </body>
 </html>
